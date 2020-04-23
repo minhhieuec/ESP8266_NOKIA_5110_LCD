@@ -76,6 +76,9 @@ void app_main(void)
     gpio_config(&io_conf);
 
     PCD8544_init();
+    PCD8544_setContrast(60);
+    // PCD8544_lcdPrint("hello world!!!");
+    Display_Bitmap();
 
     uart_config_t uart_config = {
         .baud_rate = 115200,

@@ -43,4 +43,6 @@ void PCD8544_initLCD(void);
  */
 void PCD8544_init(void);
 
+void Display_Bitmap(void);
+
 #endif /* INCLUDE_DRIVER_PCD8544_H_ */
